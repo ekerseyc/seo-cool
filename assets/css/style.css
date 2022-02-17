@@ -25,6 +25,10 @@ header h1 .seo {
     display: inline-block;
 }
 
+header nav a {
+    margin-left:25px
+    }
+
 nav {
     margin-right: 20px;
     float: right;
