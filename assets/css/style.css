@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Changed .header to header to match semantic tag */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,17 +25,26 @@ header h1 .seo {
     display: inline-block;
 }
 
-header nav a {
-    margin-left:25px
-    }
-
+/* converted ul>li to nav                                      */
 nav {
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     display: inline;
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin-left:25px;
+    padding: 4px 8px;
+    transition: all 243ms ease;
+    }
+
+nav a:hover {
+    background-color: #d9dcd6;
+    color: #2a607c; 
 }
 
 a {
