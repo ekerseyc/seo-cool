@@ -15,12 +15,12 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+h1 .seo {
     color: #d9dcd6;
     display: inline-block;
 }
@@ -107,8 +107,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
+/* refactored information to keep things DRY */
+.main {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -116,48 +116,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* refactored information images to keep things DRY */
+.main img{
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* refactored information h2 to keep things DRY */
+.main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
