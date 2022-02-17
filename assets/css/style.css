@@ -117,7 +117,7 @@ p {
     color: #ffffff;
 }
 /* refactored information images to keep things DRY */
-.main img{
+.main img {
     max-height: 200px;
 }
 /* refactored information h2 to keep things DRY */
